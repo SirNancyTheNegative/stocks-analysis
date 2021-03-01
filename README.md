@@ -96,7 +96,7 @@ Next i
 
 With that, besides some formatting shenanigans in order to make the output sheet legible, the code changes were completed. Now to see how more or less efficient it was.
 
-![Results from 2017](https://github.com/SirNancyTheNegative/stocks-analysis/Resources/VBA_Challenge_2017.png)
+[Results from 2017](https://github.com/SirNancyTheNegative/stocks-analysis/Resources/VBA_Challenge_2017.png)
 
 That's 0.0898 seconds. Considering the previous iteration of the code finished analyzing the 2017 data in 0.44 seconds, that's almost 5 times as fast. In order to see if this is a fluke or not, let's run it again to analyze the 2018 data.
 
