@@ -96,11 +96,11 @@ Next i
 
 With that, besides some formatting shenanigans in order to make the output sheet legible, the code changes were completed. Now to see how more or less efficient it was.
 
-![Results from 2017](https://github.com/SirNancyTheNegative/stocks-analysis/Resources/VBA_Challenge_2017.png)
+![Results from 2017](https://github.com/SirNancyTheNegative/stocks-analysis/tree/main/Resources/VBA_Challenge_2017.png)
 
 That's 0.0898 seconds. Considering the previous iteration of the code finished analyzing the 2017 data in 0.44 seconds, that's almost 5 times as fast. In order to see if this is a fluke or not, let's run it again to analyze the 2018 data.
 
-![Results from 2018](https://github.com/SirNancyTheNegative/stocks-analysis/Resources/VBA_Challenge_2018.png)
+![Results from 2018](https://github.com/SirNancyTheNegative/stocks-analysis/tree/main/Resources/VBA_Challenge_2018.png)
 
 0.0859 seconds. Compared to the first iteration of the code when looking at the data for 2018, that's, again, 5 times as fast. Even if we assume some of the more minor portions of the code don't add any time, with the data set of the New York Stock Exchange, we'd, in theory, only have 700,000 iterations to account for, and the data combing could be done within roughly 20 seconds. Now, there's no way to know this for sure without testing, but theoretically, it could be that short a time. That's much more reasonable than the 13 hours it would take for doing a single year analysis with the previous code. Granted, we'd have to re-rework our code in order to support 2,800 different tickers, but the fact of the matter is that considerable time would be saved in such a theoretical scenario.
 
